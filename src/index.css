@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+.rec-carousel-item:focus {
+  outline: none;
+  box-shadow: inset 0 0 1px 0px violet;
+}
+.sliderimg {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.silder {
+  width: 25%;
+  height: 250px;
+  object-fit: fill;
+  padding: 0;
+}
+
+@media (max-width: 480px) {
+  .login {
+    display: float;
+  }
+}
